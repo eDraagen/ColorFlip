@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Ghostrifter-Official-Devyzed-Downtown-Glow.mp3-c0aa1a62eb03c1ab1ca8346d855b0f5e.mp3str"
+
+[deps]
+
+source_file="res://scrs/sounds/Ghostrifter-Official-Devyzed-Downtown-Glow.mp3"
+dest_files=[ "res://.import/Ghostrifter-Official-Devyzed-Downtown-Glow.mp3-c0aa1a62eb03c1ab1ca8346d855b0f5e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
