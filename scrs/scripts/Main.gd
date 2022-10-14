@@ -15,7 +15,6 @@ onready var scene_timer = $scene_timer
 
 
 func _ready():
-	#signal_bus.emit_signal("start_background_music")
 	
 	$"/root/EventsAutoload".emit_signal("fade_to_trans")
 	#<--- Buttons connect signal --->
@@ -41,9 +40,7 @@ func _start_button():
 
 #<--- ON timeout change scene, when start button pressed --->
 func _on_next_scene_timer_timeout():
-	_next_scene()
-	# add_child(scene)
-	
+	_next_scene()	
 	
 func _next_scene():
 	get_tree().change_scene("res://scrs/levels/Level1.tscn")
