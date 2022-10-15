@@ -3,42 +3,31 @@
 [ext_resource path="res://scrs/scripts/Manu.gd" type="Script" id=1]
 
 [node name="Manu" type="Control"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -640.0
-margin_top = -360.0
-margin_right = 640.0
-margin_bottom = 360.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 script = ExtResource( 1 )
 
-<<<<<<< Updated upstream
 [node name="main_menu_label" type="Label" parent="."]
-=======
-[node name="title" type="Label" parent="."]
->>>>>>> Stashed changes
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -70.0
-margin_top = -185.0
-margin_right = -14.0
-margin_bottom = -171.0
-grow_horizontal = 2
-grow_vertical = 2
-rect_scale = Vector2( 2.5, 2.5 )
-text = "ColorFlip"
-
-[node name="Player_preview_start_menu" parent="." instance=ExtResource( 2 )]
-position = Vector2( 640, 306 )
+margin_left = -100.0
+margin_top = -24.0
+margin_right = 100.0
+margin_bottom = 24.0
+text = "Press \"Space\" to jump
+Press \"D\" to rotate forward
+Press \"A\" to rotate backwards
+Press \"R\" to reset current level"
+align = 1
 
 [node name="main_menu" type="VBoxContainer" parent="."]
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_top = -70.0
+margin_top = -72.0
 margin_right = 200.0
+margin_bottom = -2.0
 __meta__ = {
 "_edit_group_": true
 }
@@ -83,7 +72,6 @@ margin_right = 227.0
 margin_bottom = 24.0
 text = "Music controller"
 
-<<<<<<< Updated upstream
 [node name="title" type="Label" parent="."]
 anchor_left = 0.5
 anchor_top = 0.36
@@ -95,31 +83,6 @@ margin_right = -24.0
 margin_bottom = -66.0
 rect_scale = Vector2( 3, 3 )
 text = "ColorFlip"
-=======
-[node name="hidden_box" type="KinematicBody2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="hidden_box"]
-position = Vector2( 640, 337 )
-shape = SubResource( 1 )
-
-[node name="main_menu_containerbox" type="VBoxContainer" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = 110.0
-margin_top = -41.5
-margin_right = 308.0
-margin_bottom = 41.5
-
-[node name="main_menu_label" type="Label" parent="main_menu_containerbox"]
-margin_right = 198.0
-margin_bottom = 65.0
-text = "Press \"Space\" to jump
-Press \"D\" to rotate forward
-Press \"A\" to rotate backwards
-Press \"R\" to reset current level"
->>>>>>> Stashed changes
 align = 1
 
 [connection signal="toggled" from="sound_controll/jump_sound_checkbox" to="." method="_on_jump_sound_checkbox_toggled"]
