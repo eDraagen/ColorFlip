@@ -18,7 +18,8 @@ margin_right = 100.0
 margin_bottom = 24.0
 text = "Press \"Space\" to jump
 Press \"D\" to rotate forward
-Press \"A\" to rotate backwards"
+Press \"A\" to rotate backwards
+Press \"R\" to reset current level"
 align = 1
 
 [node name="main_menu" type="VBoxContainer" parent="."]

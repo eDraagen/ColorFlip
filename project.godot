@@ -19,12 +19,14 @@ config/icon="res://icon.png"
 Global="*res://scrs/main/Global.tscn"
 EventsAutoload="*res://scrs/scripts/events_autoload.gd"
 SoundHandler="*res://scrs/sounds/sound_handler.tscn"
-ScreenTransitionRect="*res://scrs/main/screenTransitionRect.tscn"
 
 [display]
 
-window/size/width=720
+window/size/width=1280
+window/size/height=720
 window/size/resizable=false
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [input]
 
