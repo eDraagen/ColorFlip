@@ -11,6 +11,7 @@ script = ExtResource( 2 )
 
 [node name="death_sound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 1 )
+bus = "death_sound"
 
 [node name="jump_sound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
