@@ -5,7 +5,7 @@ resource_name = "Reverb"
 room_size = 0.51
 damping = 0.2
 spread = 0.39
-dry = 0.4
+dry = 0.5
 wet = 0.1
 
 [resource]
